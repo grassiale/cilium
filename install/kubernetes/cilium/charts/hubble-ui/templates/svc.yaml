@@ -5,7 +5,7 @@ metadata:
   name: hubble-ui
 spec:
   selector:
-    app: hubble-ui
+    k8s-app: hubble-ui
   ports:
     - name: http
       port: 80
